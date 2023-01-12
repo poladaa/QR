@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Rubik';
+  background-color: hsl(212, 45%, 89%);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+}
+
+.container {
+  max-width: 36rem;
+  margin: 0 auto;
+}
+
+.card {
+  background-color: hsl(0, 0%, 100%);
+  padding: 1.8rem;
+  border-radius: 11px;
+  text-align: center;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 9px;
+}
+
+.card h2 {
+  color: hsl(218, 44%, 22%);
+  margin-bottom: 1.8rem;
+}
